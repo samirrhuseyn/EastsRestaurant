@@ -1,0 +1,47 @@
+﻿@model WebUI.Dtos.AboutDtos.CreateAboutDto
+@{
+    ViewData["Title"] = "Create About";
+    ViewData["ActiveAbout"] = "active";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post" enctype="multipart/form-data">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">About Create Form</div>
+                        </div>
+                        <div class="col-12">
+                            <div id="fileimage" class="form-group fileimage">
+                                <label for="squareInput">Image</label>
+                                <input asp-for="ImageURL" type="file" class="form-control input-square" oninput="pic.src=window.URL.createObjectURL(this.files[0])">
+                                <span asp-validation-for="ImageURL" class="text-danger"></span>
+                                <img id="pic" width="100" src="~/ready-bootstrap-dashboard-master/assets/img/info.png" />
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="abouttitle">Title</label>
+                                <input type="text" asp-for="Title" class="form-control" id="abouttitle">
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="description">Description</label>
+                                <textarea rows="5" type="text" asp-for="Description" class="form-control" id="description"></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <button type="submit" class="btn btn-success">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

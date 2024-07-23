@@ -1,0 +1,12 @@
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\bin\Debug\net6.0\SignalR.EntityLayer.deps.json
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\bin\Debug\net6.0\SignalR.EntityLayer.dll
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\bin\Debug\net6.0\SignalR.EntityLayer.pdb
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\obj\Debug\net6.0\SignalR.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\obj\Debug\net6.0\SignalR.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\obj\Debug\net6.0\SignalR.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\obj\Debug\net6.0\SignalR.EntityLayer.AssemblyInfo.cs
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\obj\Debug\net6.0\SignalR.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\obj\Debug\net6.0\SignalR.EntityLayer.dll
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\obj\Debug\net6.0\refint\SignalR.EntityLayer.dll
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\obj\Debug\net6.0\SignalR.EntityLayer.pdb
+C:\Users\Samir\Desktop\SignalR-main\UdemySiqnalRProject\SignalR.EntityLayer\obj\Debug\net6.0\ref\SignalR.EntityLayer.dll

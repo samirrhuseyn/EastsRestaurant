@@ -1,0 +1,18 @@
+﻿@model List<WebUI.Dtos.SlideDtos.ResultSlideDto>
+@{int count = -1;}
+<div class="container">
+    <ol class="carousel-indicators">
+        @foreach (var item in Model)
+        {
+            count++;
+            @if (count == 0)
+            {
+                <li data-target="#customCarousel1" data-slide-to="@count" class="active"></li>
+            }
+            else
+            {
+                <li data-target="#customCarousel1" data-slide-to="@count"></li>
+            }
+        }
+    </ol>
+</div>

@@ -1,0 +1,102 @@
+﻿@model List<WebUI.Dtos.BasketDto.ResultBasketDto>
+@{
+    ViewData["Title"] = "Basket Tables";
+}
+
+<!DOCTYPE html>
+<html>
+
+@await Component.InvokeAsync("_UILayoutHeadComponentPartial")
+<link href="~/feane-1.0.0/css/phonemedia.css" rel="stylesheet" />
+<body class="sub_page">
+
+    <div class="hero_area">
+        <div class="bg-box">
+            <img src="~/feane-1.0.0/images/hero-bg.jpg" alt="">
+        </div>
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="/Home/Index">
+                        <span>
+                            @await Component.InvokeAsync("_UILayoutProjectTitleComponentPartial")
+                        </span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  mx-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Home/Index">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Menu/Index">Menu <span class="sr-only">(current)</span> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/About/IndexUI">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/BookATable/Index">Book Table</a>
+                            </li>
+                        </ul>
+                        <div class="user_option">
+                            <a href="/Baskets/MenuTableList" class="order_online">
+                                <i style="color:white" class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+    </div>
+    <br />
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-12">
+                <nav class="breadcrumb bg-dark mb-30">
+                    <a class="breadcrumb-item text-white" href="/Home/Index">Home</a>
+                    <a class="breadcrumb-item text-white" href="/Menu/Index">Menu</a>
+                    <span class="breadcrumb-item active">Tables</span>
+                </nav>
+            </div>
+            
+        </div>
+    </div>
+    <div class="heading_container mb-5 mt-3">
+        <h2>
+            Tables in Basket
+        </h2>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            @foreach (var item in Model)
+            {
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="/Baskets/Index/@item.MenuTableID" class="text-dark mt-1"><i class="fa-solid fa-circle-chevron-right mr-3"></i>@item.MenuTableName</a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+    </div>
+    <br />
+    <!-- footer section -->
+    @await Component.InvokeAsync("_UILayoutFooterComponentPartial")
+    <!-- jQery -->
+    @await Component.InvokeAsync("_UILayoutScriptsComponentPartial")
+
+
+
+</body>
+
+</html>

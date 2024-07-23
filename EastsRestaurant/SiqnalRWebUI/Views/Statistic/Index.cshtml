@@ -1,0 +1,342 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    ViewData["ActiveDashboard"] = "active";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+<div class="content">
+    <div class="container-fluid">
+
+        <script type="text/javascript">
+            $(document).ready(() => {
+                var connection = new signalR.HubConnectionBuilder().withUrl("http://localhost:5056/SignalRHub").build();
+                $("#connstatus").text(connection.state);
+                connection.start().then(() => {
+                    $("#connstatus").text(connection.state);
+                    setInterval(() => {
+                        connection.invoke("SendStatistics");
+                    }, 1000);
+
+                }).catch((err) => { console.log(err) });
+
+                connection.on("ReceiveCategoryCount", (categoryvalue) => {
+                    $("#categorycount").text(categoryvalue);
+                });
+
+                connection.on("ReceiveProductCount", (productvalue) => {
+                    $("#productcount").text(productvalue);
+                });
+
+                connection.on("ReceiveActiveCategoryCount", (activecategoryvalue) => {
+                    $("#activecategorycount").text(activecategoryvalue);
+                });
+
+                connection.on("ReceivePassiveCategoryCount", (passivecategoryvalue) => {
+                    $("#passivecategorycount").text(passivecategoryvalue);
+                });
+
+                connection.on("ReceiveMostExpensiveProduct", (mostexpensiveproductvalue) => {
+                    $("#mostexpensiveproduct").text(mostexpensiveproductvalue);
+                });
+
+                connection.on("ReceiveCheapestProduct", (cheapestproductvalue) => {
+                    $("#cheapestproduct").text(cheapestproductvalue);
+                });
+
+                connection.on("ReceiveTotalOrder", (totalordercountvalue) => {
+                    $("#totalordercount").text(totalordercountvalue);
+                });
+
+                connection.on("ReceiveTotalActiveOrder", (totalactiveordercountvalue) => {
+                    $("#totalactiveordercount").text(totalactiveordercountvalue);
+                });
+
+                connection.on("ReceiveLastOrderPrice", (lastorderpricevalue) => {
+                    $("#lastorderprice").text(lastorderpricevalue);
+                });
+
+                connection.on("ReceiveMoneyCaseAmount", (totalmoneycaseamountvalue) => {
+                    $("#totalmoneycaseamount").text(totalmoneycaseamountvalue);
+                });
+
+                connection.on("ReceiveMenuTableCount", (menutablecountvalue) => {
+                    $("#menutablecount").text(menutablecountvalue);
+                });
+
+                connection.on("ReceiveWatch", (nowwatchvalue) => {
+                    $("#nowwatch").text(nowwatchvalue);
+                });
+
+                connection.on("ReceiveTotalEarning", (todayearningvalue) => {
+                    $("#todayearning").text(todayearningvalue);
+                });
+
+                connection.on("ReceiveWeatherTemp", (weathertempvalue) => {
+                    $("#weathertemp").text(weathertempvalue);
+                });
+
+                connection.on("ReceiveWeatherType", (weathertypevalue) => {
+                    $("#weathertype").text(weathertypevalue);
+                });
+            });
+
+
+        </script>
+
+        <h4 class="page-title">Dashboard</h4>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-stats card-default">
+                    <div class="card-body ">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center">
+                                    <i class="fa-solid fa-shapes"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Categories</p>
+                                    <h4 class="card-title" id="categorycount"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-stats card-default">
+                    <div class="card-body ">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center">
+                                    <i class="fa-solid fa-utensils"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Products</p>
+                                    <h4 class="card-title" id="productcount"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-stats card-default">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Active Categories</p>
+                                    <h4 class="card-title" id="activecategorycount"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-stats card-default">
+                    <div class="card-body ">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Passive Categories</p>
+                                    <h4 class="card-title" id="passivecategorycount"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-stats card-default">
+                    <div class="card-body ">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center">
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p style="font-size:10px;" class="card-category">Most Expensive Product</p>
+                                    <h4 class="card-title" id="mostexpensiveproduct"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-stats card-default">
+                    <div class="card-body ">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center">
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Cheapest Product</p>
+                                    <h4 class="card-title" id="cheapestproduct"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-stats card-default">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Order Count</p>
+                                    <h4 class="card-title" id="totalordercount"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-stats card-default">
+                    <div class="card-body ">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center">
+                                    <i class="fa-solid fa-calendar-day"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Today Earning</p>
+                                    <h4 class="card-title" id="todayearning"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row row-card-no-pd">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="fw-bold mt-1">Cash Of Restaurant</p>
+                        <h4><b id="totalmoneycaseamount"></b></h4>
+                        <a style="-webkit-text-fill-color:white" role="button" data-toggle="modal" data-target="#exampleModalLong" class="btn btn-primary btn-full text-left mt-3 mb-3 mr-1"><i class="fa-solid fa-clock-rotate-left"></i> Cash actions</a>
+                        <div style="display:flex">
+                            <a style="-webkit-text-fill-color:white" class="btn btn-danger col-lg-6 btn-full text-left mt-1 mb-3" href="/Order/CreateOrder"><i class="fa-solid fa-file-circle-plus mr-1"></i> Add Order</a>
+                            <a style="-webkit-text-fill-color:white" class="btn btn-danger ml-2 col-lg-6 btn-full text-left mt-1 mb-3" href="/Expense/Index"><i class="fa-solid fa-hand-holding-dollar mr-1"></i> Expenses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-stats">
+                    <div class="card-body">
+                        <p class="fw-bold mt-1">Daily information</p>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center icon-warning">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Date and time</p>
+                                    <h4 class="card-title" id="nowwatch"></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center">
+                                    <i class="fa-solid fa-cloud"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Weather</p>
+                                    <h4 class="card-title" id="weathertemp"></h4>
+                                    <h4 class="card-title" id="weathertype"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-stats">
+                    <div class="card-body">
+                        <p class="fw-bold mt-1">Statistic</p>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center icon-warning">
+                                    <i class="fa-solid fa-hourglass-half text-warning"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Active Orders</p>
+                                    <h4 class="card-title" id="totalactiveordercount"></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="icon-big text-center">
+                                    <i class="fa-solid fa-bookmark text-primary"></i>
+                                </div>
+                            </div>
+                            <div class="col-7 d-flex align-items-center">
+                                <div class="numbers">
+                                    <p class="card-category">Tables</p>
+                                    <h4 class="card-title" id="menutablecount"></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+@await Component.InvokeAsync("CashActions")
+

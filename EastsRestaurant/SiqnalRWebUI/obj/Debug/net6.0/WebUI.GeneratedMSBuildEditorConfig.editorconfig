@@ -1,0 +1,431 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebUI
+build_property.RootNamespace = WebUI
+build_property.ProjectDir = D:\My Projects\EastsRestaurant\EastsRestaurant\SiqnalRWebUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\My Projects\EastsRestaurant\EastsRestaurant\SiqnalRWebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/About/CreateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQ3JlYXRlQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/About/IndexUI.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXhVSS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/About/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcVXBkYXRlQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/AdminLayout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/AdminList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/ConfirmError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29uZmlybUVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/ConfirmSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29uZmlybVN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/CreateAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/EditAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/EmailNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRW1haWxOb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/ErrorUrl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXJyb3JVcmwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/LinkSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlua1N1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/NotUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTm90VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/UpdateFailed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlRmFpbGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/UpdatePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/UpdatePasswordError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlUGFzc3dvcmRFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/UpdatePasswordSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlUGFzc3dvcmRTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Admin/UpdateSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Baskets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Baskets/MenuTableList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0c1xNZW51VGFibGVMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Baskets/UpdateBasket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0c1xVcGRhdGVCYXNrZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/BookATable/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0FUYWJsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Booking/CreateBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDcmVhdGVCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Booking/UpdateBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xVcGRhdGVCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Category/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Contact/CreateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGVDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Contact/UpdateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxVcGRhdGVDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Discount/CreateDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcQ3JlYXRlRGlzY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Discount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Discount/UpdateDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcVXBkYXRlRGlzY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Error/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Expense/CreateExpense.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZVxDcmVhdGVFeHBlbnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Expense/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Login/NotConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTm90Q29uZmlybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/MenuTable/CreateTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVRhYmxlXENyZWF0ZVRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/MenuTable/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVRhYmxlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Menu/MenuByTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZW51QnlUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Notification/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/OrderDetail/CreateDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcQ3JlYXRlRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/OrderDetail/GetDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcR2V0RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/OrderDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/OrderDetail/UpdateOrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcVXBkYXRlT3JkZXJEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Order/CreateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Product/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Product/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/QRCode/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUVJDb2RlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Role/AssignRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxBc3NpZ25Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/CashActions/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FzaEFjdGlvbnNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/ProgressBars/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZ3Jlc3NCYXJzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_CategoryListByProductComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhdGVnb3J5TGlzdEJ5UHJvZHVjdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_HomeAboutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVBYm91dENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_HomeBookATableComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVCb29rQVRhYmxlQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_HomeMapComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVNYXBDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_HomeOfferComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVPZmZlckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_HomeOurMenuComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVPdXJNZW51Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_HomeSliderComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVTbGlkZXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_HomeTestimonialComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hvbWVUZXN0aW1vbmlhbENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_LayoutFooterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dEZvb3RlckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_LayoutHeaderPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dEhlYWRlclBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_LayoutNavbarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dE5hdmJhckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_LayoutProfileImageNavbarPartialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dFByb2ZpbGVJbWFnZU5hdmJhclBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_LayoutProfileImageSidebarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dFByb2ZpbGVJbWFnZVNpZGViYXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_LayoutScriptComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dFNjcmlwdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_LayoutSidebarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dFNpZGViYXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_ProjectTitleImageComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2plY3RUaXRsZUltYWdlQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_SliderNavigationComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NsaWRlck5hdmlnYXRpb25Db21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_UILayoutFooterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0Rm9vdGVyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_UILayoutFooterContactComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0Rm9vdGVyQ29udGFjdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_UILayoutFooterDescriptionComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0Rm9vdGVyRGVzY3JpcHRpb25Db21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_UILayoutFooterSocialComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0Rm9vdGVyU29jaWFsQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_UILayoutHeadComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0SGVhZENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_UILayoutNavbarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0TmF2YmFyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_UILayoutProjectTitleComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0UHJvamVjdFRpdGxlQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Components/_UILayoutScriptsComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0U2NyaXB0c0NvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Slider/CreateSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXENyZWF0ZVNsaWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Slider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Slider/UpdateSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2xpZGVyXFVwZGF0ZVNsaWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/SocialMedia/CreateSocialMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcQ3JlYXRlU29jaWFsTWVkaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/SocialMedia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/SocialMedia/UpdateSocialMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcVXBkYXRlU29jaWFsTWVkaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Statistic/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Testimonial/CreateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcQ3JlYXRlVGVzdGltb25pYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Testimonial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Testimonial/UpdateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcVXBkYXRlVGVzdGltb25pYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/UILayout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlMYXlvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My Projects/EastsRestaurant/EastsRestaurant/SiqnalRWebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mv07mvknwk

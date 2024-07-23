@@ -1,0 +1,58 @@
+﻿@model List<WebUI.Dtos.ProductDtos.ResultProductDto>
+@{
+    ViewData["Title"] = "Products";
+    ViewData["ActiveProduct"] = "active";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+<div class="content">
+	<div class="container-fluid">
+		<div class="d-flex">
+			<h4 class="page-title">Products</h4>
+			<a style="height:40px;" href="/Product/CreateProduct" class="btn btn-primary"><i class="fa-solid fa-plus mr-1"></i> Add Product</a>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-body">
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">Product Name</th>
+									<th scope="col">Price</th>
+									<th scope="col">Category</th>
+									<th scope="col">Status</th>
+									<th scope="col">Actions</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.ProductName</td>
+										<td>@item.Price</td>
+										<td>@item.CategoryName</td>
+										<td>
+											@if (item.ProductStatus)
+											{
+												<a href="/Product/FalseStatus/@item.ProductId"><span class="badge badge-primary">Active</span></a>
+											}
+											else
+											{
+												<a href="/Product/ActiveStatus/@item.ProductId"><span class="badge badge-danger">Passive</span></a>
+											}
+										</td>
+										<td>
+											<a href="/Product/DeleteProduct/@item.ProductId" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></a>
+											<a href="/Product/UpdateProduct/@item.ProductId" class="btn btn-outline-success"><i class="fa-solid fa-pen"></i></a>
+										</td>
+									</tr>
+								}
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

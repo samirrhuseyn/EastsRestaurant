@@ -1,0 +1,44 @@
+﻿@using SignalR.DataAccessLayer.Concrete;
+@model WebUI.Dtos.ContactDtos.GetContactDto
+@{
+    ViewData["Title"] = "Contacts";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    var context = new SignalRContext();
+    var value = context.Contacts.Count();
+}
+<div class="content">
+    <div class="container-fluid">
+        <div class="d-flex">
+            <h4 class="page-title">Contacts</h4>
+            @if (value is not 1)
+            {
+                <a style="height:40px;" href="/Contact/CreateContact" class="btn btn-primary"><i class="fa-solid fa-plus mr-1"></i> Add Contact</a>
+            }
+            else
+            {
+                <a style="height:40px;" href="/Contact/UpdateContact/2" class="btn btn-primary"><i class="fa-solid fa-pen mr-1"></i> Edit Contact</a>
+            }
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <ul class="list-group col-lg-6">
+                                <li class="list-group-item"><i class="fa-solid fa-location-dot text-primary mr-3"></i> @Model.Location</li>
+                                <li class="list-group-item"><i class="fa-solid fa-phone text-primary mr-3"></i> @Model.Phone</li>
+                                <li class="list-group-item"><i class="fa-solid fa-envelope text-primary mr-3"></i> @Model.Mail</li>
+                            </ul>
+                            <div class="col-lg-6">
+                                <h3><img class="mr-2" src="@Model.LogoImage" width="50"/>@Model.ProjectTitle</h3>
+                                <p>@Model.FooterDescription</p>
+                            </div>
+                        </div>
+                        <br />
+                        @Html.Raw(Model.LocationIframe)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

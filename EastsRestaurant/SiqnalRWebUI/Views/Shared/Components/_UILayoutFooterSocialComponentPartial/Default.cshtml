@@ -1,0 +1,9 @@
+﻿@model List<WebUI.Dtos.SocialMediaDtos.ResultSocialMediaDto>
+<div class="footer_social">
+    @foreach(var item in Model)
+    {
+        <a data-bs-toggle="tooltip" data-bs-placement="top" title="@item.Title" href="@item.Url">
+            <i class="fa-brands fa-@item.Icon" aria-hidden="true"></i>
+        </a>
+    }
+</div>

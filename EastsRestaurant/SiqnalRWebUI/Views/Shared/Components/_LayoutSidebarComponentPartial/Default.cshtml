@@ -1,0 +1,90 @@
+﻿<div class="sidebar">
+	<div class="scrollbar-inner sidebar-wrapper">
+		@await Component.InvokeAsync("_LayoutProfileImageSidebarComponentPartial")
+		<ul class="nav">
+			<li class="nav-item @ViewBag.ActiveDashboard">
+				<a href="/Statistic/Index">
+					<i class="fa-solid fa-gauge"></i>
+					<p>Dashboard</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.OrderActive">
+				<a href="/Order/Index">
+					<i class="fa-solid fa-file-invoice-dollar"></i>
+					<p>Orders</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.MenuTableActive">
+				<a href="/MenuTable/Index">
+					<i class="fa-solid fa-square"></i>
+					<p>Tables</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.ActiveCategory">
+				<a href="/Category/Index">
+					<i class="fa-solid fa-shapes"></i>
+					<p>Categories</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.ActiveProduct">
+				<a href="/Product/Index">
+					<i class="fa-solid fa-utensils"></i>
+					<p>Products</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.ActiveBooking">
+				<a href="/Booking/Index">
+					<i class="fa-solid fa-book-bookmark"></i>
+					<p>Bookings</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.ActiveAbout">
+				<a href="/About/Index">
+					<i class="fa-solid fa-circle-info"></i>
+					<p>About Us</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.ActiveDiscount">
+				<a href="/Discount/Index">
+					<i class="fa-solid fa-percent"></i>
+					<p>Discounts</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.ActiveTestimonial">
+				<a href="/Testimonial/Index">
+					<i class="fa-solid fa-comment"></i>
+					<p>Testimonials</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.ActiveQRCode">
+				<a href="/QRCode/Index">
+					<i class="fa-solid fa-qrcode"></i>
+					<p>QR Code</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.ActiveAdmin">
+				<a href="/Admin/AdminList">
+					<i class="fa-solid fa-user"></i>
+					<p>Admins</p>
+				</a>
+			</li>
+			<li class="nav-item @ViewBag.ActiveRole">
+				<a href="/Role/Index">
+					<i class="fa-solid fa-circle-check"></i>
+					<p>Roles</p>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a href="/Home/Index">
+					<i class="fa-solid fa-location-arrow"></i>
+					<p>Go to Site</p>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a href="#">
+					<hr />
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>

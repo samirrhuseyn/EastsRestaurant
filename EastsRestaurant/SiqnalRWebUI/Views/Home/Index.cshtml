@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    ViewData["HomeActive"] = "active";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+@await Component.InvokeAsync("_HomeSliderComponentPartial");
+
+@await Component.InvokeAsync("_HomeOfferComponentPartial");
+
+@await Component.InvokeAsync("_HomeOurMenuComponentPartial");
+
+@await Component.InvokeAsync("_HomeAboutComponentPartial");
+
+@await Component.InvokeAsync("_HomeBookATableComponentPartial");
+
+@await Component.InvokeAsync("_HomeTestimonialComponentPartial");

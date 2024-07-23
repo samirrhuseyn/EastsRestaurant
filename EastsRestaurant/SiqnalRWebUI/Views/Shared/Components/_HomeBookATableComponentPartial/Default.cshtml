@@ -1,0 +1,60 @@
+﻿<section class="book_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2>
+                Book A Table
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form_container">
+                    <form method="post" action="/BookATable/Index">
+                        <div>
+                            <input type="text" class="form-control" name="Name" placeholder="Your Name" required />
+                        </div>
+                        <div>
+                            <input type="text" class="form-control" name="Phone" placeholder="Phone Number" required />
+                        </div>
+                        <div>
+                            <input type="email" class="form-control" name="Mail" placeholder="Your Email" required />
+                        </div>
+                        <div>
+                            <select name="PersonCount" class="form-control nice-select wide" required>
+                                <option value="" disabled selected>
+                                    How many persons?
+                                </option>
+                                <option value="1">
+                                    1
+                                </option>
+                                <option value="2">
+                                    2
+                                </option>
+                                <option value="3">
+                                    3
+                                </option>
+                                <option value="4">
+                                    4
+                                </option>
+                                <option value="5">
+                                    5
+                                </option>
+                                <option value="6">
+                                    6
+                                </option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="datetime-local" class="form-control" name="Date" required>
+                        </div>
+                        <div class="btn_box">
+                            <button>
+                                Book Now
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            @await Component.InvokeAsync("_HomeMapComponentPartial")
+        </div>
+    </div>
+</section>
